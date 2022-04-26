@@ -28,5 +28,15 @@ $darkgoldenrod: darkgoldenrod;
   padding: 5px 10px;
   border: 1px solid;
   #{border-color}: $bordercolor;
-  border-radius: 3px; 
+  border-radius: 3px;
+}
+
+@mixin letter {
+  display: inline-block;
+  min-height: 20px;
+  min-width: 30px;
+  border: 1px solid $darkgrey;
+  vertical-align: middle;
+  padding: 10px 5px;
+  border-radius: 5px;
 }

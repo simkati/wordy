@@ -23,7 +23,7 @@ export function Result(props) {
         <><GiTrophyCup /><p>{result.winMsg}</p></>
       }
       {!props.win &&
-        <p>{enigma} {result.lostMsg}</p>
+        <><p className='enigma'>{enigma.map((l) => <span>{l}</span>)}</p><p>{result.lostMsg}</p></>
       }
       <button onClick={newGame} >Új játék</button>
     </div>

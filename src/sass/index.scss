@@ -58,13 +58,7 @@ code {
   }
   .guess {
     .guessLetter {
-      display: inline-block;
-      min-height: 20px;
-      min-width: 30px;
-      border: 1px solid $darkgrey;
-      vertical-align: middle;
-      padding: 10px 5px;
-      border-radius: 5px;
+      @include letter;
 
       &.guess-not-valid {
         border-color: $lightred;
@@ -83,6 +77,9 @@ code {
       padding: 10px 20px;
       border: 1px solid $lightgreen;
       border-radius: 5px;
+    }
+    .enigma span {
+      @include letter;
     }
   }
   .keyboard {

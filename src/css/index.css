@@ -98,6 +98,15 @@ code {
   border: 1px solid #86b270;
   border-radius: 5px;
 }
+.App .result .enigma span {
+  display: inline-block;
+  min-height: 20px;
+  min-width: 30px;
+  border: 1px solid #494444;
+  vertical-align: middle;
+  padding: 10px 5px;
+  border-radius: 5px;
+}
 .App .keyboard {
   max-width: 300px;
   margin: auto;
