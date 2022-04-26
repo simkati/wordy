@@ -1,0 +1,15 @@
+{
+  "main.css": "/wordy/static/css/main.c469d89a.chunk.css",
+  "main.js": "/wordy/static/js/main.7420799b.chunk.js",
+  "main.js.map": "/wordy/static/js/main.7420799b.chunk.js.map",
+  "runtime~main.js": "/wordy/static/js/runtime~main.d309cac2.js",
+  "runtime~main.js.map": "/wordy/static/js/runtime~main.d309cac2.js.map",
+  "static/js/2.022cc035.chunk.js": "/wordy/static/js/2.022cc035.chunk.js",
+  "static/js/2.022cc035.chunk.js.map": "/wordy/static/js/2.022cc035.chunk.js.map",
+  "static/js/3.153d6254.chunk.js": "/wordy/static/js/3.153d6254.chunk.js",
+  "static/js/3.153d6254.chunk.js.map": "/wordy/static/js/3.153d6254.chunk.js.map",
+  "index.html": "/wordy/index.html",
+  "precache-manifest.00552944f7cf2f3068cd394742b4efee.js": "/wordy/precache-manifest.00552944f7cf2f3068cd394742b4efee.js",
+  "service-worker.js": "/wordy/service-worker.js",
+  "static/css/main.c469d89a.chunk.css.map": "/wordy/static/css/main.c469d89a.chunk.css.map"
+}
