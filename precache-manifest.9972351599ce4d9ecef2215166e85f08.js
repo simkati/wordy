@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "83a1bd62a0357cdfda2a",
-    "url": "/wordy/static/css/main.c469d89a.chunk.css"
+    "revision": "5cebb9939802133f5679",
+    "url": "/wordy/static/css/main.5a896011.chunk.css"
   },
   {
-    "revision": "83a1bd62a0357cdfda2a",
-    "url": "/wordy/static/js/main.7420799b.chunk.js"
+    "revision": "5cebb9939802133f5679",
+    "url": "/wordy/static/js/main.1602683b.chunk.js"
   },
   {
     "revision": "cf6d7d0f8fe0f4a1ba57",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/wordy/static/js/3.153d6254.chunk.js"
   },
   {
-    "revision": "b4b4922481428c23bbe302caee7b8d47",
+    "revision": "fc77c858f14590f1c07150951c2ea89b",
     "url": "/wordy/index.html"
   }
 ];
