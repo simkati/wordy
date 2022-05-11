@@ -42,7 +42,7 @@ code {
   top: 100px;
   left: 50%;
   transform: translate(-50%);
-  width: 500px;
+  max-width: 500px;
   background-color: white;
   color: #494444;
   text-align: center;
@@ -80,7 +80,7 @@ code {
   top: 100px;
   left: 50%;
   transform: translate(-50%);
-  width: 500px;
+  max-width: 500px;
   background-color: white;
   color: #494444;
   text-align: center;
@@ -108,7 +108,7 @@ code {
   border-radius: 5px;
 }
 .App .keyboard {
-  max-width: 300px;
+  max-width: 480px;
   margin: auto;
   font-weight: bold;
   cursor: pointer;
@@ -118,6 +118,9 @@ code {
   height: 30px;
   width: 30px;
   margin: 5px;
+}
+.App .keyboard .letter:first-of-type {
+  margin-left: 10px;
 }
 .App .keyboard .enterBtn {
   margin: 10px;
@@ -141,4 +144,12 @@ code {
 }
 .App .faulty {
   background-color: #a39c9c;
+}
+@media (max-width: 480px) {
+  .App .guess-line {
+    margin: 2px;
+  }
+  .App .keyboard .letter {
+    margin: 1px;
+  }
 }

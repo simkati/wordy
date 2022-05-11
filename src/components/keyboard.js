@@ -79,9 +79,13 @@ export function Keyboard(props) {
 
   return (
     <div className='keyboard'>
-      {letters.map((l) => <Letter className={getClass(l)} key={l} letter={l} onClick={() => onClickLetter(l)} />)}
-      <button className='enterBtn' onClick={send}><GrReturn />{keyboard.enterBtn}</button>
-      <button className='deleteBtn' onClick={deleteLetter}><GrUndo />{keyboard.deleteBtn}</button>
+      <div className='letter-wrapper'>
+        {letters.map((l) => <Letter className={getClass(l)} key={l} letter={l} onClick={() => onClickLetter(l)} />)}
+      </div>
+      <div className='action-btns'>
+        <button className='enterBtn' onClick={send}><GrReturn />{keyboard.enterBtn}</button>
+        <button className='deleteBtn' onClick={deleteLetter}><GrUndo />{keyboard.deleteBtn}</button>
+      </div>
     </div>
   )
 }

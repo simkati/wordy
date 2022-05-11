@@ -83,7 +83,7 @@ code {
     }
   }
   .keyboard {
-    max-width: 300px;
+    max-width: 480px;
     margin: auto;
     font-weight: bold;
     cursor: pointer;
@@ -92,6 +92,10 @@ code {
       height: 30px;
       width: 30px;
       margin: 5px;
+
+      &:first-of-type {
+        margin-left: 10px;
+      }
     }
     .enterBtn {
       @include keyboardBtn($lightgreen);
@@ -108,5 +112,14 @@ code {
   }
   .faulty {
     background-color: $lightgrey;
+  }
+
+  @media (max-width: 480px) {
+    .guess-line {
+      margin: 2px;
+    }
+    .keyboard .letter {
+      margin: 1px;
+    }
   }
 }

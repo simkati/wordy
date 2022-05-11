@@ -15,7 +15,7 @@ $darkgoldenrod: darkgoldenrod;
   top: 100px;
   left: 50%;
   transform: translate(-50%);
-  width: 500px;
+  max-width: 500px;
   background-color: $white;
   color: $darkgrey;
   text-align: center;
