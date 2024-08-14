@@ -12,7 +12,7 @@ import { keyboard } from '../content/content';
 
 export function Keyboard(props) {
   const letters = ['cs','dzs','gy','ly','ny','sz','ty','zs',
-      'ö','ü','ó','q','w','e','r','t','z','u','i','o',
+      'ö','ü','ó','q','w','e','r','t','z','u','𝗂','o',
       'p','ő','ú','a','s','d','f','g','h','j','k','l',
       'é','á','ű','í','x','c','v','b','n','m'];
 
